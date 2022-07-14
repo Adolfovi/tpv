@@ -60,7 +60,7 @@ header {
     margin: 0.02rem;
 }
 
-.data-product:hover{
+.data-product:hover {
     background-color: #212529;
 }
 
@@ -109,7 +109,7 @@ header {
 }
 
 .pay-container button {
-    padding: 0.4rem;
+    padding: 0.6rem;
     width: 90%;
     background-color: #198754;
     border: 0;
@@ -126,7 +126,7 @@ header {
 }
 
 .delete-container button {
-    padding: 0.4rem;
+    padding: 0.6rem;
     width: 90%;
     background-color: #dc3545;
     border: 0;
@@ -159,51 +159,51 @@ header {
     font-weight: bolder;
 }
 
-.grid-item span{
+.grid-item span {
     opacity: 60%;
 }
 
-.grid-item-1{
+.grid-item-1 {
     background-color: #dc3545;
     box-shadow: inset 0px 0px 20px 20px #bc3441;
 }
 
-.grid-item-2{
+.grid-item-2 {
     background-color: #0d6efd;
     box-shadow: inset 0px 0px 20px 20px #1560cf;
 }
 
-.grid-item-3{
+.grid-item-3 {
     background-color: #198754;
     box-shadow: inset 0px 0px 20px 20px #1e764d;
 }
 
-.grid-item-4{
+.grid-item-4 {
     background-color: #198754;
     box-shadow: inset 0px 0px 20px 20px #1e764d;
 }
 
-.grid-item-5{
+.grid-item-5 {
     background-color: #198754;
     box-shadow: inset 0px 0px 20px 20px #1e764d;
 }
 
-.grid-item-6{
+.grid-item-6 {
     background-color: #198754;
     box-shadow: inset 0px 0px 20px 20px #1e764d;
 }
 
-.grid-item-7{
+.grid-item-7 {
     background-color: #198754;
     box-shadow: inset 0px 0px 20px 20px #1e764d;
 }
 
-.grid-item-8{
+.grid-item-8 {
     background-color: #198754;
     box-shadow: inset 0px 0px 20px 20px #1e764d;
 }
 
-.grid-item-9{
+.grid-item-9 {
     background-color: #198754;
     box-shadow: inset 0px 0px 20px 20px #1e764d;
 }
@@ -215,28 +215,28 @@ header {
 
 /* categorias.html */
 
-.products-container{
+.products-container {
     width: 100%;
     background-color: white;
     padding: 0.4rem;
     border: 1px solid #c9c9c9;
 }
 
-.product-element{
+.product-element {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.product-element-close svg{
+.product-element-close svg {
     width: 1rem;
 }
 
-.product-element-image img{
+.product-element-image img {
     width: 2.4rem;
 }
 
-.selected-products{
+.selected-products {
     width: 96%;
     display: flex;
     align-items: center;
@@ -246,8 +246,7 @@ header {
     margin-bottom: 0.4rem;
 }
 
-.product-element-close{
-    width: 25%;
+.product-element-close {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -255,7 +254,7 @@ header {
     margin-right: 0.4rem;
 }
 
-.product-element-image{
+.product-element-image {
     width: 25%;
     display: flex;
     align-items: center;
@@ -263,7 +262,7 @@ header {
     align-content: center;
 }
 
-.product-element-title{
+.product-element-title {
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -271,61 +270,66 @@ header {
     margin-left: 0.4rem;
 }
 
-.product-element-price{
+.product-element-price {
     width: 25%;
     display: flex;
     justify-content: flex-end;
 }
 
-.product-element-info-product{
+.product-element-info-product {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 50%;
 }
 
-.product-element-info-price{
+.product-element-info-price {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 50%;
 }
 
-.menu-buttons-index{
+.menu-buttons-index {
     display: flex;
     align-items: center;
     background-color: #bbbbbb;
     padding: 0.4rem;
 }
 
-.menu-buttons-index div svg{
-    width: 20px;
+.menu-buttons-index:hover {
+    background-color: #5c5c5c;
 }
 
-.section-content-products{
+.menu-buttons-index div svg {
+    width: 16px;
+}
+
+.section-content-products {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-content: center;
     justify-content: center;
+    margin-left: 1rem;
 }
 
-.menu-buttons-container{
+.menu-buttons-container {
     margin: 0.4rem;
 }
 
-.menu-buttons-index div span{
+.menu-buttons-index div span {
     margin-left: 0.4rem;
     color: white;
 }
 
-.menu-buttons-categories div span{
+.menu-buttons-categories div span {
     margin-left: 0.4rem;
     color: white;
 }
 
-.menu-buttons-categories{
+.menu-buttons-categories {
     display: flex;
     align-items: center;
     background-color: #bbbbbb;
@@ -333,10 +337,274 @@ header {
     margin-left: 0.2rem;
 }
 
-.menu-buttons-categories div svg{
-    width: 20px;
+.menu-buttons-categories:hover {
+    background-color: #5c5c5c;
 }
 
-.menu-buttons-container{
+.menu-buttons-fingerfood:hover {
+    background-color: #5c5c5c;
+}
+
+.menu-buttons-fingerfood div svg {
+    width: 16px;
+}
+
+.menu-buttons-fingerfood div {
     display: flex;
+}
+
+.menu-buttons-fingerfood div span {
+    margin-left: 0.4rem;
+    color: white;
+}
+
+.menu-buttons-fingerfood {
+    display: flex;
+    align-items: center;
+    background-color: #bbbbbb;
+    padding: 0.4rem;
+    margin-left: 0.2rem;
+}
+
+.menu-buttons-fingerfood:hover {
+    background-color: #5c5c5c;
+}
+
+.menu-buttons-fingerfood div svg {
+    width: 16px;
+}
+
+.menu-buttons-fingerfood div {
+    display: flex;
+}
+
+.menu-buttons-container {
+    display: flex;
+}
+
+.result-product-drink-image img {
+    width: 12rem;
+    border: 1px solid gray;
+    box-shadow: 0px 4px 12px 0px grey;
+}
+
+.result-product-fingerfood-image img {
+    width: 12rem;
+    box-shadow: 0px 4px 12px 0px grey;
+}
+
+.container-result-products {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 0.4rem;
+    width: 100%;
+}
+
+.result-product-drink-title {
+    text-align: center;
+}
+
+.result-product-fingerfood-title {
+    text-align: center;
+}
+
+.result-product-drink {
+    margin-right: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.result-product-title {
+    text-align: center;
+}
+
+.result-product-image img {
+    width: 12rem;
+    border: 1px solid gray;
+    box-shadow: 0px 4px 12px 0px grey;
+    height: 9rem;
+}
+
+.result-product {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.column-salemade-ticket {
+    width: 25%;
+}
+
+.column-sale-made-container-filterbydate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.column-sale-made-container-filterbytable {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-sale-made-container-filterbydate input {
+    width: 40%;
+}
+
+.column-sale-made-container-filterbytable input {
+    width: 40%;
+}
+
+.column-sale-made-container-submitbutton {
+    margin-top: 1rem;
+}
+
+.column-sale-made-container-submitbutton button {
+    width: 100%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    background-color: #0d6efd;
+    border: 0;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.column-sale-made-container-title {
+    text-align: center;
+}
+
+.column-salemade-info-container-option {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.column-salemade-info-container-option-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-salemade-info-container-option:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.column-salemade-info-container {
+    border: 2px solid #dfdfdf;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+}
+
+.column-salemade-info-container-price-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-salemade-info-container-price-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-salemade-info-container-price-title-total-profit {
+    width: 50%;
+    text-align: center;
+}
+
+.column-salemade-info-container-price-title-middleday-profit {
+    width: 50%;
+    text-align: center;
+}
+
+.column-salemade-info-container-price-total-profit {
+    width: 50%;
+    text-align: center;
+    border-right: 0.1rem solid white;
+}
+
+.column-salemade-info-container-price-price-middleday-profit {
+    width: 50%;
+    text-align: center;
+}
+
+.column-salemade-info-container-price {
+    margin-top: 1rem;
+    background-color: #6c757d;
+    color: white;
+    padding-top: 0.2rem;
+}
+
+.column-salemade-products {
+    width: 75%;
+}
+
+.column-salemade-products-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.column-salemade-products-container-info-salemade {
+    border: 2px solid #dfdfdf;
+}
+
+.column-salemade-products-container-info-salemade-icon {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #efefef;
+    padding: 0.4rem 0.8rem 0.4rem;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.column-salemade-products-container-info-salemade-icon svg {
+    width: 2rem;
+}
+
+.column-salemade-products-container-info-salemade-title {
+    padding: 0.6rem 0.4rem 0.2rem 0.6rem;
+}
+
+.column-salemade-products-container-info-salemade-infopayment-allinfo {
+    padding: 0rem 0.4rem 0.2rem 0.6rem;
+}
+
+.column-salemade-products-container-title {
+    text-align: center;
+}
+
+.grid-container-4x4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item-4x4-title {
+    border-bottom: 2px solid black;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.grid-item-4x4-result {
+    border-bottom: 2px solid #efefef;
+    padding-top: 0.4rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.grid-item-4x4-result img {
+    width: 4rem;
 }
