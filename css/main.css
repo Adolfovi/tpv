@@ -621,8 +621,8 @@ header {
 
 .grid-item-4x4-title {
     border-bottom: 2px solid black;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     font-size: 1rem;
     text-align: center;
 }
