@@ -341,6 +341,15 @@ header {
     color: white;
 }
 
+.menu-buttons-categories div {
+    display: flex;
+}
+
+
+.menu-buttons-categories div svg {
+    width: 1rem;
+}
+
 .menu-buttons-categories {
     display: flex;
     align-items: center;
