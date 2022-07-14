@@ -306,7 +306,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #bbbbbb;
-    padding: 0.4rem;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
 }
 
 .menu-buttons-index:hover {
@@ -328,7 +328,7 @@ header {
 }
 
 .menu-buttons-container {
-    margin: 0.4rem;
+    margin: 0.4rem 0.4rem 0.8rem 0.4rem;
 }
 
 .menu-buttons-index div span {
@@ -354,7 +354,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #bbbbbb;
-    padding: 0.4rem;
+    padding: 0.6rem 1.0rem 0.6rem 1.0rem;
     margin-left: 0.2rem;
 }
 
