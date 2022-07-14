@@ -230,7 +230,9 @@ header {
 }
 
 .product-element-close svg {
-    width: 1rem;
+    width: 0.5rem;
+    background-color: #f8f9fa;
+    padding: 0.4rem;
 }
 
 .product-element-image img {
@@ -269,6 +271,15 @@ header {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 0.4rem;
+}
+
+.product-element-title-category{
+    font-style: italic;
+    color: #efefef;
+}
+
+.product-element-title-title span{
+    font-size: 1.2rem;
 }
 
 .product-element-price {
