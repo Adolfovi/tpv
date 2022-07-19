@@ -428,7 +428,7 @@ header {
     justify-content: space-between;
     flex-direction: row;
     margin-left: 0.4rem;
-    width: 100%;
+    width: 99%;
 }
 
 .result-product-drink-title {
@@ -468,7 +468,7 @@ header {
 }
 
 .result-product-image img {
-    width: 17rem;
+    width: 16.8rem;
     border: 1px solid gray;
     box-shadow: 0px 4px 12px 0px grey;
     height: 11rem;
