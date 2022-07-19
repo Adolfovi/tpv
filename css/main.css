@@ -23,13 +23,13 @@ header {
 }
 
 .column-ticket-table {
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: center;
 }
 
 .column-group-tables {
-    width: 75%;
+    width: 70%;
     display: flex;
     justify-content: center;
 }
@@ -227,12 +227,14 @@ header {
     background-color: white;
     padding: 0.4rem;
     border: 1px solid #c9c9c9;
+    height: 4rem;
 }
 
 .product-element {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
 }
 
 .product-element-close svg {
@@ -242,7 +244,7 @@ header {
 }
 
 .product-element-image img {
-    width: 2.4rem;
+    width: 3.4rem;
 }
 
 .selected-products {
@@ -292,6 +294,7 @@ header {
     width: 25%;
     display: flex;
     justify-content: flex-end;
+    font-size: 1.2rem;
 }
 
 .product-element-info-product {
@@ -389,7 +392,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #bbbbbb;
-    padding: 0.4rem;
+    padding: 0.4rem 1.0rem 0.4rem 1.0rem;
     margin-left: 0.2rem;
 }
 
@@ -422,7 +425,7 @@ header {
 
 .container-result-products {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
     margin-left: 0.4rem;
     width: 100%;
@@ -430,6 +433,7 @@ header {
 
 .result-product-drink-title {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .result-product-fingerfood-title {
@@ -460,13 +464,14 @@ header {
 
 .result-product-title {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .result-product-image img {
-    width: 12rem;
+    width: 17rem;
     border: 1px solid gray;
     box-shadow: 0px 4px 12px 0px grey;
-    height: 9rem;
+    height: 11rem;
 }
 
 .result-product {
