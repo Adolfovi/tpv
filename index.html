@@ -7,13 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TPV</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
 </head>
 
-<body>
+<body onload="start()">
     <header>
         TPV
     </header>
     <main>
+        <div class="layer">
+        </div>
+        <div class="modal-pay-flex">
+            <div class="modal-pay-container">
+                <div class="modal-pay-main-title-container">
+                    <div class="modal-pay-main-title">
+                        <span>Metodo de pago</span>
+                        <span class="close-modal">&#x2715</span>
+                    </div>
+                </div>
+                <div class="modal-pay-buttons-container">
+                    <div class="modal-pay-buttons">
+                        <button>efectivo</button>
+                        <button>tarjeta</button>
+                        <button>bizum</button>
+                    </div>
+                </div>
+                <div class="modal-pay-close-container">
+                    <div class="modal-pay-close">
+                        <button>CERRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-delete-flex">
+            <div class="modal-delete-container">
+                <div class="modal-delete-main-title-container">
+                    <div class="modal-delete-main-title">
+                        <span>Eliminar Ticket</span>
+                        <span class="close-modal-delete">&#x2715</span>
+                    </div>
+                </div>
+                <div class="modal-delete-text">
+                    <p>Está a punto de borrar el pedido sin ser cobrado. 
+                        ¿Está completamente seguro de realizar esta acción?</p>
+                </div>
+                <div class="modal-delete-buttons-exit">
+                    <button>CERRAR</button>
+                    <button class="close">ELIMINAR</button>
+                </div>
+            </div>
+        </div>
         <div class="main-container">
             <div class="column-ticket-table">
                 <div class="container-section">

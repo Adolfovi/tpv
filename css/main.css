@@ -122,6 +122,7 @@ header {
     color: white;
     border-radius: 0.2rem;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .pay-container {
@@ -140,6 +141,7 @@ header {
     color: white;
     border-radius: 0.2rem;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .delete-container {
@@ -644,4 +646,165 @@ header {
 
 .grid-item-4x4-result img {
     width: 4rem;
+}
+
+.modal-pay-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -20rem;
+    transition: top 1s;
+}
+
+.modal-pay-flex.active{
+    top: 10rem;
+    transition: top 1s;
+}
+
+
+.modal-pay-container{
+    background-color: white;
+    width: 17rem;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.modal-pay-main-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-pay-main-title-container{
+    border-bottom: 2px solid #e7e7e7;
+    padding: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.modal-pay-close-container{
+    border-top: 2px solid #e7e7e7;
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.modal-pay-buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.modal-pay-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 9rem;
+}
+
+.modal-pay-buttons button{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-color: #0d6efd;
+    color: white;
+    border: 0;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.modal-pay-close{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-pay-close button{
+    border: 0;
+    cursor: pointer;
+}
+
+.layer{
+    padding: 1rem;
+    width: 98%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: -120%;
+    background-color: black;
+    opacity: 0.4;
+    transition: left 1s;
+}
+
+.layer.active{
+    display: block;
+    left: 0;
+    transition: left 1s;
+}
+
+.close-modal{
+    cursor: pointer;
+}
+
+
+
+.modal-delete-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -20rem;
+    transition: top 1s;
+}
+
+.modal-delete-flex.active{
+    top: 10rem;
+}
+
+.modal-delete-container{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    background-color: white;
+    z-index: 1000;
+    border-radius: 0.2rem;
+}
+
+.modal-delete-main-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-delete-buttons-exit{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 2px solid #e7e7e7;
+    padding: 0.4rem;
+}
+
+.modal-delete-buttons-exit button{
+    margin-left: 0.8rem;
+    border-radius: 0.2rem;
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+}
+
+.modal-delete-main-title-container{
+    border-bottom: 2px solid #e7e7e7;
+    padding: 0.4rem;
+}
+
+.modal-delete-buttons-exit .close{
+    background-color: #198754;
+    color: white;
+
+}
+
+.close-modal-delete{
+    cursor: pointer;
+}
+
+.modal-delete-text{
+    text-align: center;
 }
