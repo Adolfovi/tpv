@@ -426,7 +426,7 @@ header {
 
 .container-result-products {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
     margin-left: 0.4rem;
     width: 99%;
@@ -439,6 +439,7 @@ header {
 
 .result-product-fingerfood-title {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .result-product-drink {
