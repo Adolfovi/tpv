@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
+</head>
+
+<body onload="start()">
+    <header>
+        <span class="title">PANEL DE ADMINISTRACIÓN</span>
+        <span class="subtitle">IVA</span>
+    </header>
+    <main>
+        <div class="layer">
+
+        </div>
+        <div class="modal-table-container">
+            <div class="modal-table">
+                <div class="modal-table-title-container">
+                    <div class="modal-table-title">
+                        <span class="modal-table-title-title">AÑADIR MESA</span>
+                        <span class="modal-table-title-close">&#9587;</span>
+                    </div>
+                </div>
+                <div class="type-container">
+                    <div class="type">
+                        <div class="type-title">Tipo</div>
+                        <div class="type-input"><input type="text"></div>
+                    </div>
+                </div>
+                <div class="vigente-container">
+                    <div class="vigente">
+                        <div class="vigente-title">Vigente</div>
+                        <div class="vigente-input">
+                            <select name="" id="">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-buttons-container">
+                    <div class="group-buttons">
+                        <button class="close">CERRAR</button>
+                        <button class="continue">CONFIRMAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-delete-iva-container">
+            <div class="modal-delete-iva">
+                <div class="modal-delete-iva-title-container">
+                    <div class="modal-delete-iva-title">
+                        <span class="modal-delete-iva-title-title">ELIMINAR IVA</span>
+                        <span class="modal-delete-iva-title-close">&#9587;</span>
+                    </div>
+                </div>
+                <div class="modal-delete-iva-text-container">
+                    <div class="modal-delete-iva-text">
+                        <p>Está a punto de borrar un iva.
+                            ¿Está completamente seguro de realizar esta acción?</p>
+                    </div>
+                </div>
+                <div class="modal-delete-iva-group-buttons-container">
+                    <div class="modal-delete-iva-group-buttons">
+                        <button class="modal-delete-iva-group-buttons-close">CERRAR</button>
+                        <button class="modal-delete-iva-group-buttons-delete">ELIMINAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-hamburger-container">
+            <button class="button-hamburger">
+                <svg height="32px" id="hamburger" style="enable-background:new 0 0 32 32;" viewBox="0 0 32 32"
+                    width="20px" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+                </svg>
+            </button>
+        </div>
+        <div class="iva-plus-container">
+            <button class="insert-iva">+ Añadir IVA</button>
+        </div>
+
+        <div class="iva-panel">
+            <div class="iva-panel-element title">Tipo</div>
+            <div class="iva-panel-element title">Vigente</div>
+            <div class="iva-panel-element title">Opciones</div>
+            <div class="iva-panel-element">4</div>
+            <div class="iva-panel-element">1</div>
+            <div class="iva-panel-element">
+                <div class="edit-svg">
+                    <button>
+                        <svg height="19px" viewBox="0 0 19 19" width="19px" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g>
+                                <path fill="white"
+                                    d="M8.44,7.25C8.348,7.342,8.277,7.447,8.215,7.557L8.174,7.516L8.149,7.69   C8.049,7.925,8.014,8.183,8.042,8.442l-0.399,2.796l2.797-0.399c0.259,0.028,0.517-0.007,0.752-0.107l0.174-0.024l-0.041-0.041   c0.109-0.062,0.215-0.133,0.307-0.225l5.053-5.053l-3.191-3.191L8.44,7.25z"
+                                    fill="#231F20" />
+                                <path fill="white"
+                                    d="M18.183,1.568l-0.87-0.87c-0.641-0.641-1.637-0.684-2.225-0.097l-0.797,0.797l3.191,3.191l0.797-0.798   C18.867,3.205,18.824,2.209,18.183,1.568z"
+                                    fill="#231F20" />
+                                <path fill="white"
+                                    d="M15,9.696V17H2V2h8.953l1.523-1.42c0.162-0.161,0.353-0.221,0.555-0.293   c0.043-0.119,0.104-0.18,0.176-0.287H0v19h17V7.928L15,9.696z"
+                                    fill="#231F20" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div class="delete-svg">
+                    <button>
+                        <svg style="enable-background:new 0 0 16 16; width: 17px;" version="1.1" viewBox="0 0 16 16"
+                            xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path fill="white"
+                                d="M8,0C7.448,0,7,0.448,7,1H0v2h1v11c0,1.105,0.895,2,2,2h10c1.105,0,2-0.895,2-2V3h1V1H9C9,0.448,8.552,0,8,0z M4,14H3V5h1  V14z M7,14H6V5h1V14z M10,14H9V5h1V14z M13,14h-1V5h1V14z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="iva-panel-element">10</div>
+            <div class="iva-panel-element">1</div>
+            <div class="iva-panel-element">
+                <div class="edit-svg">
+                    <button>
+                        <svg height="19px" viewBox="0 0 19 19" width="19px" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g>
+                                <path fill="white"
+                                    d="M8.44,7.25C8.348,7.342,8.277,7.447,8.215,7.557L8.174,7.516L8.149,7.69   C8.049,7.925,8.014,8.183,8.042,8.442l-0.399,2.796l2.797-0.399c0.259,0.028,0.517-0.007,0.752-0.107l0.174-0.024l-0.041-0.041   c0.109-0.062,0.215-0.133,0.307-0.225l5.053-5.053l-3.191-3.191L8.44,7.25z"
+                                    fill="#231F20" />
+                                <path fill="white"
+                                    d="M18.183,1.568l-0.87-0.87c-0.641-0.641-1.637-0.684-2.225-0.097l-0.797,0.797l3.191,3.191l0.797-0.798   C18.867,3.205,18.824,2.209,18.183,1.568z"
+                                    fill="#231F20" />
+                                <path fill="white"
+                                    d="M15,9.696V17H2V2h8.953l1.523-1.42c0.162-0.161,0.353-0.221,0.555-0.293   c0.043-0.119,0.104-0.18,0.176-0.287H0v19h17V7.928L15,9.696z"
+                                    fill="#231F20" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div class="delete-svg">
+                    <button>
+                        <svg style="enable-background:new 0 0 16 16; width: 17px;" version="1.1" viewBox="0 0 16 16"
+                            xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path fill="white"
+                                d="M8,0C7.448,0,7,0.448,7,1H0v2h1v11c0,1.105,0.895,2,2,2h10c1.105,0,2-0.895,2-2V3h1V1H9C9,0.448,8.552,0,8,0z M4,14H3V5h1  V14z M7,14H6V5h1V14z M10,14H9V5h1V14z M13,14h-1V5h1V14z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="iva-panel-element">21</div>
+            <div class="iva-panel-element">1</div>
+            <div class="iva-panel-element">
+                <div class="edit-svg">
+                    <button>
+                        <svg height="19px" viewBox="0 0 19 19" width="19px" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g>
+                                <path fill="white"
+                                    d="M8.44,7.25C8.348,7.342,8.277,7.447,8.215,7.557L8.174,7.516L8.149,7.69   C8.049,7.925,8.014,8.183,8.042,8.442l-0.399,2.796l2.797-0.399c0.259,0.028,0.517-0.007,0.752-0.107l0.174-0.024l-0.041-0.041   c0.109-0.062,0.215-0.133,0.307-0.225l5.053-5.053l-3.191-3.191L8.44,7.25z"
+                                    fill="#231F20" />
+                                <path fill="white"
+                                    d="M18.183,1.568l-0.87-0.87c-0.641-0.641-1.637-0.684-2.225-0.097l-0.797,0.797l3.191,3.191l0.797-0.798   C18.867,3.205,18.824,2.209,18.183,1.568z"
+                                    fill="#231F20" />
+                                <path fill="white"
+                                    d="M15,9.696V17H2V2h8.953l1.523-1.42c0.162-0.161,0.353-0.221,0.555-0.293   c0.043-0.119,0.104-0.18,0.176-0.287H0v19h17V7.928L15,9.696z"
+                                    fill="#231F20" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div class="delete-svg">
+                    <button>
+                        <svg style="enable-background:new 0 0 16 16; width: 17px;" version="1.1" viewBox="0 0 16 16"
+                            xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path fill="white"
+                                d="M8,0C7.448,0,7,0.448,7,1H0v2h1v11c0,1.105,0.895,2,2,2h10c1.105,0,2-0.895,2-2V3h1V1H9C9,0.448,8.552,0,8,0z M4,14H3V5h1  V14z M7,14H6V5h1V14z M10,14H9V5h1V14z M13,14h-1V5h1V14z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="pages-container">
+            <div class="pages-group">
+                <button>&lt;&lt;</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>&gt;&gt;</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

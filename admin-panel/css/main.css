@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    font-family: 'Abel', 'Arial';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #bdbdbd;
+    display: flex;
+    width: 86%;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .subtitle {
+    font-size: 2.8rem;
+}
+
+.button-hamburger {
+    width: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.button-hamburger-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+main {
+    width: 86%;
+}
+
+.iva-plus-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4rem;
+    margin-bottom: 0.4rem;
+}
+
+.iva-plus-container button {
+    padding: 0.4rem;
+    font-size: 1.0rem;
+    background-color: #0d6efd;
+    border: 0;
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.iva-panel {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+
+.iva-panel-element {
+    border: 0.01rem solid #e4e4e4;
+    padding: 6px;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iva-panel-element.title {
+    background-color: #c9e7ff;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+}
+
+.edit-svg button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 2rem;
+    height: 2rem;
+    background-color: #198754;
+    border: 0;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.delete-svg button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 2rem;
+    height: 2rem;
+    background-color: #dc3545;
+    border: 0;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.edit-svg {
+    margin-right: 0.2rem;
+}
+
+.delete-svg {
+    margin-left: 0.2rem;
+}
+
+.pages-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.pages-group {
+    display: flex;
+}
+
+.pages-group button {
+    border: 1px solid #d3d3d3;
+    padding: 0.4rem;
+    width: 2rem;
+    cursor: pointer;
+    color: #001aff;
+}
+
+.layer {
+    background-color: black;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: -120%;
+    height: 96%;
+    width: 98%;
+    z-index: 1000;
+    opacity: 0.4;
+    transition: left 1s;
+}
+
+.layer.active {
+    left: 0;
+    transition: left 1s;
+}
+
+.modal-table-container {
+    width: 100%;
+    position: absolute;
+    top: -120%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: top 1s;
+}
+
+.modal-table-container.active {
+    top: 20%;
+    transition: top 1s;
+}
+
+.modal-table {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1000;
+    border-radius: 0.2rem;
+}
+
+.modal-table-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-table-title-container {
+    border-bottom: 1px solid black;
+    padding: 0.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.type-container {
+    padding: 0.4rem;
+}
+
+.type-input input {
+    width: 98%;
+}
+
+.vigente {
+    padding: 0.4rem;
+}
+
+.vigente-input select {
+    width: 100%;
+}
+
+.group-buttons {
+    padding: 0.6rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.group-buttons .continue {
+    background-color: #0d6efd;
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    margin-left: 0.2rem;
+    color: white;
+}
+
+.group-buttons .close {
+    background-color: #6c757d;
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    margin-right: 0.2rem;
+    color: white;
+}
+
+.modal-table-title-close{
+    cursor: pointer;
+}
+
+.modal-delete-iva-container{
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    top: -120%;
+    display: flex;
+    justify-content: center;
+    transition: top 1s;
+}
+
+.modal-delete-iva-container.active{
+    top: 20%;
+    transition: top 1s;
+}
+
+.modal-delete-iva{
+    background-color: white;
+    width: 28rem;
+    border-radius: 0.2rem;
+}
+
+.modal-delete-iva-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-delete-iva-title-container{
+    border-bottom: 1px solid #e7e7e7;
+    padding: 0.6rem;
+}
+
+.modal-delete-iva-text{
+    padding: 0.6rem;
+}
+
+.modal-delete-iva-group-buttons-container{
+    padding: 0.6rem;
+    border-top: 1px solid #e7e7e7;
+}
+
+.modal-delete-iva-title-close{
+    cursor: pointer;
+}
+
+.modal-delete-iva-group-buttons button{
+    border: 0;
+    padding: 0.4rem;
+}
+
+.modal-delete-iva-group-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-delete-iva-group-buttons-delete{
+    background-color: #0d6efd;
+    margin-left: 0.2rem;
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-delete-iva-group-buttons-close{
+    background-color: #6c757d;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+}
