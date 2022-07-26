@@ -17,6 +17,13 @@ function start(){
         });
     });
 
+    document.querySelectorAll(".edit-svg").forEach(element =>{
+        element.addEventListener("click", ()=>{
+        document.querySelector(".modal-delete-iva-container").classList.add("active");
+        document.querySelector(".layer").classList.add("active");
+        });
+    });
+
     document.querySelector(".modal-delete-iva-title-close").addEventListener("click", ()=>{
         document.querySelector(".modal-delete-iva-container").classList.remove("active");
         document.querySelector(".layer").classList.remove("active");
